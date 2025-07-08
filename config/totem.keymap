@@ -196,7 +196,7 @@
               &kp Q       &kp W       &kp F             &kp P               &kp B        &kp J           &kp L                &kp U              &kp Y       &kp BACKSPACE
               &mt LGUI A  &mt LALT R  &mt LEFT_SHIFT S  &mt LEFT_CONTROL T  &kp G        &kp M           &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT E  &mt RALT I  &mt RGUI O
 &kp LEFT_ALT  &kp Z       &kp X       &kp C             &kp D               &kp V        &kp K           &kp H                &kp COMMA          &kp PERIOD  &kp FSLH       &kp ENTER
-                                      &kp LEFT_GUI      &lt 6 TAB           &kp SPACE    &kp LEFT_SHIFT  &lt 4 ESC            &kp LEFT_CONTROL
+                                      &kp LEFT_GUI      &lt 4 TAB           &kp SPACE    &kp LEFT_SHIFT  &lt 6 ESC            &kp LEFT_CONTROL
             >;
         };
 
