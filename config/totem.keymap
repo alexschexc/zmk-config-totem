@@ -118,9 +118,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC  &kp N7        &kp N8        &kp N9        &kp MINUS       &kp SQT         &kp SEMICOLON  &kp NON_US_BACKSLASH  &kp GRAVE   &kp CAPSLOCK
-        &kp TAB  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK    &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW          &kp RIGHT   &kp ENTER
-&trans  &kp N0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL       &kp LA(LC(F))   &squareBrack   &parenBrack           &charBrack  &stringBrack  &trans
+        &kp ESC  &kp N7        &kp N8        &kp N9        &kp MINUS       &kp SQT         &kp SEMICOLON  &kp BACKSLASH     &kp GRAVE   &kp CAPSLOCK
+        &kp TAB  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK    &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW      &kp RIGHT   &kp ENTER
+&trans  &kp N0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL       &kp LA(LC(F))   &squareBrack   &parenBrack       &charBrack  &stringBrack  &trans
                                &kp LEFT_GUI  &trans        &kp SPACE       &kp LEFT_SHIFT  &kp KP_N0      &kp LEFT_CONTROL
             >;
         };
