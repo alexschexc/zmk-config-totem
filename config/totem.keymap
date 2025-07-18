@@ -99,8 +99,6 @@
             >;
         };
 
-        // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-
         QwertyDN {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 
@@ -118,14 +116,12 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC  &kp N7        &kp N8        &kp N9        &kp MINUS       &kp SQT         &kp SEMICOLON  &kp BACKSLASH     &kp GRAVE   &kp CAPSLOCK
-        &kp TAB  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK    &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW      &kp RIGHT   &kp ENTER
-&trans  &kp N0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL       &kp LA(LC(F))   &squareBrack   &parenBrack       &charBrack  &stringBrack  &trans
-                               &kp LEFT_GUI  &trans        &kp SPACE       &kp LEFT_SHIFT  &kp KP_N0      &kp LEFT_CONTROL
+        &kp ESC  &kp N7        &kp N8        &kp N9        &kp MINUS       &kp SQT         &kp SEMICOLON     &kp BACKSLASH     &kp GRAVE   &kp CAPSLOCK
+        &kp TAB  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK    &kp LEFT_ARROW  &kp DOWN          &kp UP_ARROW      &kp RIGHT   &kp ENTER
+&trans  &kp N0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL       &kp LA(LC(F))   &squareBrack      &parenBrack       &charBrack  &stringBrack  &trans
+                               &kp LEFT_GUI  &trans        &kp SPACE       &kp LEFT_SHIFT  &kp C_PLAY_PAUSE  &kp LEFT_CONTROL
             >;
         };
-
-        // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
         QwertyUP {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
@@ -144,14 +140,12 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F11       &kp F12   &kp F13      &kp HOME        &kp PAGE_UP    &kp INS            &kp F14        &tog 5
+              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F11       &kp F12   &kp F13      &kp HOME        &kp PAGE_UP    &kp INS            &kp F14        &tog 4
               &kp F6            &kp F7             &kp F8        &kp F9    &kp F10      &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW       &kp RIGHT      &tog 3
 &kp LEFT_ALT  &kp F1            &kp F2             &kp F3        &kp F4    &kp F5       &kp END         &kp PAGE_DOWN  &kp DEL            &kp RIGHT_GUI  &kp F15  &kp ENTER
                                                    &kp LEFT_GUI  &kp C_PP  &kp SPACE    &kp LEFT_SHIFT  &trans         &kp RIGHT_CONTROL
             >;
         };
-
-        // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
         adjust_layer {
             // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
@@ -177,26 +171,23 @@
             >;
         };
 
-        // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-        // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-
-        ColeMDN {
-            label = "NAVI1";
-            bindings = <
-        &kp ESC  &kp N7        &kp N8        &kp N9        &kp MINUS       &kp SQT         &kp SEMICOLON  &kp NON_US_BACKSLASH  &kp GRAVE   &kp CAPSLOCK
-        &kp TAB  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK    &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW          &kp RIGHT   &kp ENTER
-&trans  &kp N0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL       &kp LA(LC(F))   &squareBrack   &parenBrack           &charBrack  &stringBrack  &trans
-                               &kp LEFT_GUI  &trans        &kp SPACE       &kp LEFT_SHIFT  &trans         &kp LEFT_CONTROL
-            >;
-        };
-
         ColeMAKDH {
             label = "Base2";
             bindings = <
               &kp Q       &kp W       &kp F             &kp P               &kp B        &kp J           &kp L                &kp U              &kp Y       &kp BACKSPACE
               &mt LGUI A  &mt LALT R  &mt LEFT_SHIFT S  &mt LEFT_CONTROL T  &kp G        &kp M           &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT E  &mt RALT I  &mt RGUI O
 &kp LEFT_ALT  &kp Z       &kp X       &kp C             &kp D               &kp V        &kp K           &kp H                &kp COMMA          &kp PERIOD  &kp FSLH       &kp ENTER
-                                      &kp LEFT_GUI      &mo 4               &kp SPACE    &kp LEFT_SHIFT  &mo 6                &kp LEFT_CONTROL
+                                      &kp LEFT_GUI      &mo 5               &kp SPACE    &kp LEFT_SHIFT  &mo 6                &kp LEFT_CONTROL
+            >;
+        };
+
+        ColeMDN {
+            label = "NAVI1";
+            bindings = <
+              &kp ESC  &kp N7        &kp N8        &kp N9        &kp MINUS       &kp SQT         &kp SEMICOLON     &kp NON_US_BACKSLASH  &kp GRAVE   &kp CAPSLOCK
+              &kp TAB  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTERISK    &kp LEFT_ARROW  &kp DOWN          &kp UP_ARROW          &kp RIGHT   &kp ENTER
+&kp LEFT_ALT  &kp N0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL       &kp LA(LC(F))   &squareBrack      &parenBrack           &charBrack  &stringBrack  &trans
+                                     &kp LEFT_GUI  &trans        &kp SPACE       &kp LEFT_SHIFT  &kp C_PLAY_PAUSE  &kp LEFT_CONTROL
             >;
         };
 
